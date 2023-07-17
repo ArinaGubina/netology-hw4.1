@@ -18,6 +18,9 @@ function App() {
         setRgbOutput(`rgb(${result.r}, ${result.g}, ${result.b})`);
         setColorHexStyle(val);
       }      
+    } else {
+      setRgbOutput("");
+      setColorHexStyle("white");
     }
   }
 
